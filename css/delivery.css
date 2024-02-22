@@ -1,17 +1,125 @@
-@import url('./header.css');
-@import url('./footer.css');
+@import url("./header.css");
+@import url("./footer.css");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Golos;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+@font-face {
+  font-family: Golos;
+  src: url(../fonts/GolosText-Regular.ttf);
+}
+
+.last__page-1 {
+  width: 366px;
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #161616;
+}
+.last__page-2 {
+  max-width: 592px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.last__page-2-1 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+}
+.last__page-2-2 {
+  color: #161616;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.last__page-3 {
+  max-width: 592px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.last__page-3-1 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+}
+.last__page-3-2 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.last__page-4 {
+  max-width: 592px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+.last__page-4-1 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+}
+
+.last__page-4-2 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+@media (max-width: 460px) {
+  .last__page-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 220px;
     font-family: Golos;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #161616;
   }
-  .container {
-    max-width: 1240px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-  button {
-    cursor: pointer;
-  }
+}
