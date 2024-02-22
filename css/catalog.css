@@ -1,17 +1,265 @@
-@import url('./header.css');
-@import url('./footer.css');
+@import url("./header.css");
+@import url("./footer.css");
+
+@font-face {
+  font-family: "Golos";
+  src: url(../fonts/static/GolosText-Regular.ttf);
+}
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Golos;
-  }
-  .container {
-    max-width: 1240px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-  button {
-    cursor: pointer;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Golos;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+
+/* Section trio */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.card {
+  display: flex;
+  transition: 0.5s all ease-out;
+}
+
+.card .with-photo {
+  padding: 0 16px 32px 0;
+}
+
+.card .with-text .p1 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Golos";
+}
+
+.card .with-text .p2 {
+  width: 313px;
+  color: rgba(117, 117, 117, 1);
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Golos";
+}
+
+.crisis {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.other-p-1 {
+  color: rgba(22, 22, 22, 1);
+  font-family: "Golos";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.other-p-2 {
+  color: rgba(117, 117, 117, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  padding: 0px 0px 0px 24px;
+  font-size: 16px;
+}
+
+/* Section aroun */
+
+.oper-menu-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.oper-visd {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px 12px 12px;
+  border-radius: 10px;
+}
+
+.oper-visd p {
+  color: rgba(22, 22, 22, 1);
+}
+
+#ex {
+  background-color: rgba(32, 34, 38, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#vuv {
+  color: rgba(255, 255, 255, 1);
+}
+
+.special {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.avengers {
+  display: flex;
+  padding: 0px 0px 16px 0px;
+}
+
+.guardians {
+  padding: 0px 0px 16px 0px;
+  display: flex;
+}
+
+.xmen {
+  display: flex;
+}
+
+.tony img {
+  width: 257px;
+  height: 184px;
+  border-radius: 10px;
+}
+
+.danvers img {
+  width: 257px;
+  border-radius: 10px;
+  height: 184px;
+}
+
+.stev img {
+  border-radius: 10px;
+  width: 257px;
+  height: 184px;
+}
+
+.tony {
+  padding: 8px 8px 20px 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.tony .btns .b1 {
+  background-color: rgba(41, 73, 181, 1);
+  width: 59px;
+  height: 24px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.tony .btns .b2 {
+  background-color: rgba(48, 141, 119, 1);
+  width: 59px;
+  height: 24px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Golos";
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.group #s23 {
+  color: rgba(22, 22, 22, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.trio {
+  display: flex;
+  flex-direction: column;
+}
+
+.ves {
+  display: flex;
+  justify-content: space-between;
+}
+.ves #p1 {
+  color: rgba(117, 117, 117, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ves #p2 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.stev .btns .danvers {
+  padding: 8px 8px 20px 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.stev {
+  padding: 8px 8px 20px 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.stev .btns .b1 {
+  background-color: red;
+  color: white;
+  width: 49px;
+  height: 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.stev .btns .b2 {
+  background-color: rgba(41, 73, 181, 1);
+  width: 59px;
+  height: 24px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Golos";
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.stev .btns .b3 {
+  background-color: rgba(48, 141, 119, 1);
+  width: 59px;
+  height: 24px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Golos";
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.danvers {
+  padding: 8px 8px 20px 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.kupit {
+  background-color: rgba(32, 34, 38, 1);
+  width: 249px;
+  height: 44px;
+  border: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Golos";
+  border-radius: 8px;
+}
+
+.delku {
+  display: flex;
+}
