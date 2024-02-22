@@ -5,7 +5,12 @@
   font-family: Golos;
   src: url(../fonts/static/GolosText-Regular.ttf);
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Golos;
+}
 .container {
   max-width: 1240px;
   width: 100%;
