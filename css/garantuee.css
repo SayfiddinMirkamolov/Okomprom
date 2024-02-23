@@ -281,78 +281,102 @@ header {
 
 
 /* start main */
-
-.delivere_pay_text{
+.garantuee_title{
 font-size: 40px;
 line-height: 48px;
 color: #161616;
 margin-bottom: 60px;
 margin-top: 60px;
 }
-.test_text_title{
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 0.24px;
-color: #161616;
-margin-bottom: 24px;
-}
-.test_text_subtitle{
-max-width:  592px;
-font-size: 16px;
-line-height: 20px;
-color: #161616;
-margin-bottom: 60px;
-}
-.delivere_in_title{
-font-size: 24px;
-line-height: 28px; 
-letter-spacing: 0.24px;
-color: #161616;
-margin-bottom: 24px;
-}
-.delivere_in_subtitle{
-max-width: 538px;;
-font-size: 16px;
-line-height: 20px;
-color: #161616;
-margin-top: 24px;
-margin-bottom: 60px;
-
-}
-.delivere_in_text{
-margin-top: 24px;
-font-size: 16px;
-line-height: 20px;
-color: #161616;
-}
-.pay_title{
-font-size: 24px;
-line-height: 28px; 
-letter-spacing: 0.24px;
-color: #161616;
-margin-bottom: 24px;
-}
-.pay_subtitle{
+.garantuee_subtitle{
 max-width: 592px;
+color: #161616;
+font-size: 24px;
+line-height: 28px; 
+letter-spacing: 0.24px;
+margin-bottom: 24px;
+}
+.garantuee_par{
+  max-width: 592px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #161616;
+  margin-bottom: 60px;
+}
+.repair{
+  margin-bottom: 60px;
+}
+.repair_title{
+max-width: 592px;
+color: #161616;
+font-size: 24px;
+line-height: 28px; 
+letter-spacing: 0.24px;
+margin-bottom: 24px;
+}
+.repair_subtitle{
+max-width: 592px;
+color: #161616;
 font-size: 16px;
 line-height: 20px;
+margin-bottom: 20px;
+}
+.change_title{
 color: #161616;
+font-size: 24px;
+line-height: 28px; 
+margin-bottom: 24px;
+}
+.change_subtitle{
+max-width: 592px;
+color: #161616;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 60px;
+}
+.change_footer_title{
+max-width: 592px;
+color: #161616;
+font-size: 24px;
+line-height: 28px; 
+margin-bottom: 24px;
+}
+.change_footer_subtitle{
+max-width: 592px;
+color: #161616;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 20px;
 }
 @media (max-width: 768px){
-.delivere_pay_text {
-  font-size: 34px;
-  line-height: 39px;
-  margin-top: 15px;
+.garantuee_subtitle{
+  font-size: 22px;
+  line-height: 26px;
 }
 }
-@media(max-width: 320px){
-.delivere_pay_text {
-  font-size: 28px;
-  line-height: 32px;
-}
+@media (max-width: 576px){
+.repair_title{
+font-size: 20px;
 }
 
-
+}
+@media (max-width: 320px){
+.garantuee_title{
+margin-top: 36px;
+font-size: 37px;
+margin-bottom: 31px;
+}
+.garantuee_subtitle{
+margin-bottom: 14px;
+font-size: 20px;
+line-height: 25px;
+}
+.change_footer_title{
+font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 11px;
+}
+}
 
 /* FOOTER //////////////////////////////////////////////////// */
 
